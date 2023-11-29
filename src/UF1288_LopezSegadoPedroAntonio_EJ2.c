@@ -24,11 +24,11 @@ int main(void) {
         tam++;  
     }else printf("Error, puerto ocupado no se ha podido insertar.");
 
+
+
+
+
 	
-
-
-
-	return EXIT_SUCCESS;
 }
 
 
