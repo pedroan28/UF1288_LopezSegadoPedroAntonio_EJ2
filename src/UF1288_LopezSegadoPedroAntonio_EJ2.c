@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "servicio.h"
+#include "servicio.c"
 
 int main(void) {
 
@@ -14,6 +15,12 @@ int main(void) {
 	int tam=5;
 	puts("Programa de listas de servicios");
 
+	
+
 
 	return EXIT_SUCCESS;
 }
+
+
+
+
