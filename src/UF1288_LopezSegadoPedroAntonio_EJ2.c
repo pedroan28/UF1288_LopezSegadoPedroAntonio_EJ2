@@ -14,8 +14,18 @@ int main(void) {
 		};
 	int tam=5;
 	puts("Programa de listas de servicios");
+	servicio nuevoServicio;
+
+    mostrarListaServicios(lista, tam);
+    pedirDatosServicio(&nuevoServicio);
+
+    if (insertarServicio(lista, tam, nuevoServicio) == 1 ) {
+		printf("Servicio agregado correctamente.");
+        tam++;  
+    }else printf("Error, puerto ocupado no se ha podido insertar.");
 
 	
+
 
 
 	return EXIT_SUCCESS;
